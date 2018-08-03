@@ -1,0 +1,107 @@
+@rowH: 80px;
+@margin: 20px;
+
+
+.accountItem {
+  height: @rowH;
+  background-color: white;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  .accountLeft{
+    width: 300px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    .accountTitle{
+      font-size: 25px;
+      color: rebeccapurple;
+    }
+
+    span{
+      display: flex;
+    }
+  }
+
+  .font25{
+    font-size: 25px;
+  }
+  .colorRed{
+    color: red;
+  }
+  .colorTitle{
+    color: rebeccapurple;
+  }
+}
+
+.wallet-management {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0 15px;
+  height: 32px;
+  background-image: linear-gradient(7deg, #5F72D8 0%, #6366C7 31%, #6E479D 100%);
+  box-shadow: 0 0 5px 0 #D0D3FF;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    background-image: linear-gradient(7deg, #5F72D8 0%, #6366C7 31%, #6E479D 100%);
+    box-shadow: 0 0 5px 0 #D0D3FF;
+  }
+}
+
+
+.accountListHeader{
+  padding: 10px;
+  margin-bottom: 10px;
+  // margin: 20px;
+}
+
+.file {
+  position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 4px 12px;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+  background-color: rgb(33, 162, 114);
+  color: white;
+}
+.file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.ant-form-item-label.ant-col-xs-24.ant-col-sm-5{
+  width: 120px;
+}
+.ant-form-item-control,.ant-form-item-children,.ant-form-item-control-wrapper.ant-col-xs-24.ant-col-sm-18,.ant-form-item-label.ant-col-xs-24.ant-col-sm-5 input{
+  display: flex;
+  flex: 1;
+}
+.ant-row.ant-form-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.walletWrap{
+  display:flex;
+  justify-content:space-between;
+}
+
+.transaction-form-container {
+  margin: 0 5% 20px;
+  height: 100%;
+  overflow-y: hidden;
+}

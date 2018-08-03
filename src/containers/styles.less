@@ -1,0 +1,132 @@
+@sideWidth:200px;
+@marginLeft:20px;
+@marginRight:20px;
+@marginTop:20px;
+@marginBottom:20px;
+
+@import "./AssetAndRequirement/style.less";
+
+// @route-children-bs: 0 0 10px 0 rgba(0,0,0,0.07);
+.route-children-bg {
+  background-color: #FFF;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.12);
+  border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.marginLeft {
+    margin-left: @marginLeft;
+}
+
+.marginRight {
+    margin-right: @marginRight;
+}
+
+.marginTop {
+    margin-top: @marginTop;
+}
+
+.marginBotton {
+    margin-bottom: @marginBottom;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px #CCCCCC;
+  flex: 1;
+  height: 80px;
+  z-index: 1;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.redbg{
+    background-color: red
+}
+
+
+.login-container .label {
+  line-height: 32px;
+  &::after {
+    content: ' ';
+    margin-right: 8px;
+  }
+}
+
+.login-container, .register {
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 500px;
+}
+
+.contentbody .ant-pagination {
+  padding-right: 10px;
+}
+
+.route-children-container {
+  position: relative;
+  flex-grow: 1;
+}
+.route-children-container-title {
+  margin: 20px auto;
+  text-align: center;
+  > span {
+    font-size: 24px;
+  }
+}
+
+// 需求和资产的共有样式
+.dataDescription{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    font-size: 16px;
+    > span {
+      margin-left: 5px;
+      margin-bottom: 5px;
+      &::after {
+        content: ':';
+      }
+    }
+    span,textarea{
+        color: #444444;
+    }
+}
+
+.container .ant-table-body td, .container .ant-table-thead > tr > th {
+  text-align: center;
+}
+
+.container .ant-list-pagination {
+  margin-top: 12px;
+  text-align: initial;
+}

@@ -1,0 +1,98 @@
+.ant-tabs{
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.ant-tabs-tabpane-inactive {
+  overflow-y: hidden;
+}
+.uploadAsset{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  > .ant-row {
+    margin: 10px 0;
+  }
+  div {
+    textarea{
+      border-radius: 6px;
+      resize:none;
+    }
+    button {
+      font-size: 16px;
+    }
+    .ant-cascader-picker,.ant-cascader-picker-label {
+      margin: 0;
+      display: flex;
+      flex: 1;
+      align-items: center;
+    }
+    .ant-cascader-picker-label {
+      margin-top: -10px;
+    }
+  }
+  .ant-calendar-picker-icon {
+    margin-top: -7px;
+  }
+
+}
+
+.filename{
+  margin-left: 5px;
+}
+
+.label {
+  text-align: right;
+  font-size: 18px;
+}
+
+.upLoad {
+  button {
+    border: none;
+    font-weight: lighter;
+    i {
+      display: none;
+    }
+    span{
+      font-size: 16px;
+    }
+  }
+  button:hover{
+    border:1px solid #6127BD;
+  }
+
+}
+
+
+.set{
+  .ant-upload.ant-upload-drag p.ant-upload-text{
+    color:white;
+  }
+  .ant-upload.ant-upload-drag p.ant-upload-hint{
+    color: white;
+  }
+}
+//居中
+//tr
+.ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr {
+  position: relative;
+  text-align:center
+}
+
+//原本样式
+.ant-tabs-nav,.ant-tabs-nav-animated {
+  color:#6147BD;
+}
+//鼠标滑过样式
+.ant-tabs-nav-wrap .ant-tabs-nav .ant-tabs-tab:hover {
+  color:#9A7DE0;
+}
+//点击后样式
+.ant-tabs-nav-wrap .ant-tabs-nav-scroll .ant-tabs-nav .ant-tabs-tab-active{
+  color:#9A7DE0;
+}
+
+.ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr a{
+  color: #4A90E2;
+}
