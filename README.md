@@ -1,4 +1,4 @@
-# ![Datanno Logo](https://github.com/Datanno/DataExchange-pc/master/pic/logo.png)
+# ![Datanno Logo](https://raw.githubusercontent.com/Datanno/DataExchange-pc/master/pic/logo.png)
 
 [![License](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 
